@@ -8,7 +8,7 @@ public class Homework1 {
 	static Node root;
 	/*public static void main(String[] args) {
 		// Begin of arguments input sample
-		String input = "515151+66";
+		String input = "";
 		if (args.length > 0) {
 			input=args[1];
 			if (input.equalsIgnoreCase("251-*32*+")) {
@@ -80,13 +80,10 @@ public class Homework1 {
 		String s = n.getNodeName();
 		if (s.equals(" + ")) {
 			result = left + right;
-
 		} else if (s.equals(" - ")) {
 			result = left - right;
-
 		} else if (s.equals(" * ")) {
 			result = left * right;
-
 		} else if (s.equals(" / ")) {
 			result = left / right;
 		}
