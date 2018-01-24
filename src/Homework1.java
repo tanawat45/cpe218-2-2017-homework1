@@ -1,6 +1,7 @@
-import java.util.Stack;
-import javax.imageio.metadata.IIOMetadataNode;
 import org.w3c.dom.Node;
+
+import javax.imageio.metadata.IIOMetadataNode;
+import java.util.Stack;
 
 public class Homework1 {
 
